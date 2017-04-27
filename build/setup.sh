@@ -9,8 +9,11 @@ wget http://www.semantic3d.net/data/point-clouds/testing2/sg27_station10_rgb_int
 wget http://www.semantic3d.net/data/point-clouds/testing2/sg28_Station2_rgb_intensity-reduced.txt.7z
 wget http://www.semantic3d.net/data/point-clouds/training1/sg28_station4_intensity_rgb.7z
 wget http://www.semantic3d.net/data/sem8_labels_training.7z
-wget https://dl.dropboxusercontent.com/u/7069946/p7zip-binary-64bit.zip
-unzip p7zip-binary-64bit.zip
+wget -O p7zip_16.02_x86_linux_bin.tar.bz2 "https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_x86_linux_bin.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fp7zip%2Ffiles%2Fp7zip%2F16.02%2F&ts=1493289214&use_mirror=netcologne"
+tar jxf p7zip_16.02_x86_linux_bin.tar.bz2
+mkdir p7zip
+mv p7zip_16.02/bin/7za p7zip
+rm -rf p7zip_16.02_x86_linux_bin.tar.bz2 p7zip_16.02
 chmod +x p7zip/7za
 for arc in *.7z
 do
