@@ -9,8 +9,8 @@ The code requires at least 8 Gb RAM and an Nvidia GPU (at least 6 Gb of memory, 
 Each point in the point cloud is to be classified into one of the semantic classes like building/car/vegetation/etc. It is done by considering a range of neighbourhoods for the point, computing occupancy grids for them and applying 3D convolutional neural network on those grids.
 A more detailed description can be found at https://goo.gl/TUPqXo.
 
-# Instructions for Linux (tested for Ubuntu 14.04.2 LTS):
-1. install torch (tested for commit ba34004a7a48806bf4a6e88ecfc5fbada5efe636 from May 7, 2016) and cudnn (tested for v4). For the latter, follow the instructions https://github.com/soumith/cudnn.torch
+# Instructions for Linux (tested for Ubuntu 16.04.2 LTS):
+1. install torch (tested for commit 5c1d3cfda8101123628a45e70435d545ae1bc771 from June 7, 2017), cuda (tested for v8.0) and cudnn (tested for v5.1). For the latter, follow the instructions https://github.com/soumith/cudnn.torch
 2. clone this repository
 3. run "cd build; ./setup.sh" to download data and transform it into necessary format.
 4. run "./build_run.sh" to prepare small train/validation sets to track optimization progress
