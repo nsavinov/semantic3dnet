@@ -40,7 +40,6 @@ else
 end
 local criterion = nn.ClassNLLCriterion()
 local criterion = criterion:cuda()
-criterion = cudnn.convert(criterion, cudnn)
 
 local parameters, gradParameters = model:getParameters()
 
