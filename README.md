@@ -35,7 +35,7 @@ const int kNumberOfClasses = 8; // integer labels 1, ..., 8 are considered
 
 const int kDefaultNumberOfScales = 5; // each sample in the batch is constructed as stacked multiples scales. in the deep net architecture fully connected layer outputs are concatenated
 
-const int kDefaultNumberOfRotations = 1; // optional implemenation of TI-pooling on top of multi-scale architecture. read the paper for more details
+const int kDefaultNumberOfRotations = 1; // optional implemenation of TI-pooling on top of multi-scale architecture. check [the repository](https://github.com/dlaptev/TI-pooling) or read [the paper](https://arxiv.org/abs/1604.06318) for more details
 
 const float kSpatialResolution = 0.025; // voxel side in meters
 
