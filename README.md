@@ -4,6 +4,15 @@ This code implements a deep neural network for 3D point cloud semantic segmentat
 
 The code requires at least 8 Gb RAM and an Nvidia GPU (at least 6 Gb of memory, tested for Nvidia Titan X GPU).
 
+If you use this code or the benchmark in your research, please cite it as
+
+@article{hackel2017semantic3d,
+  title={Semantic3D. net: A new Large-scale Point Cloud Classification Benchmark},
+  author={Hackel, Timo and Savinov, Nikolay and Ladicky, Lubor and Wegner, Jan D and Schindler, Konrad and Pollefeys, Marc},
+  journal={arXiv preprint arXiv:1704.03847},
+  year={2017}
+}
+
 # How does it work
 ![](https://img-fotki.yandex.ru/get/59977/128787062.0/0_1570f1_3c18d091_orig)
 Each point in the point cloud is to be classified into one of the semantic classes like building/car/vegetation/etc. It is done by considering a range of neighbourhoods for the point, computing occupancy grids for them and applying 3D convolutional neural network on those grids.
