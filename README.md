@@ -6,12 +6,12 @@ The code requires at least 8 Gb RAM and an Nvidia GPU (at least 6 Gb of memory, 
 
 If you use this code or the benchmark in your research, please cite it as
 
-@article{hackel2017semantic3d,
-  title={Semantic3D. net: A new Large-scale Point Cloud Classification Benchmark},
-  author={Hackel, Timo and Savinov, Nikolay and Ladicky, Lubor and Wegner, Jan D and Schindler, Konrad and Pollefeys, Marc},
-  journal={arXiv preprint arXiv:1704.03847},
-  year={2017}
-}
+    @article{hackel2017semantic3d,
+    title={Semantic3D.net: A new Large-scale Point Cloud Classification Benchmark},
+    author={Hackel, Timo and Savinov, Nikolay and Ladicky, Lubor and Wegner, Jan and Schindler, Konrad and Pollefeys, Marc},
+    journal={arXiv preprint arXiv:1704.03847},
+    year={2017}
+    }
 
 # How does it work
 ![](https://img-fotki.yandex.ru/get/59977/128787062.0/0_1570f1_3c18d091_orig)
