@@ -16,7 +16,7 @@ If you use this code or the benchmark in your research, please cite it as
 # How does it work
 ![](https://img-fotki.yandex.ru/get/59977/128787062.0/0_1570f1_3c18d091_orig)
 Each point in the point cloud is to be classified into one of the semantic classes like building/car/vegetation/etc. It is done by considering a range of neighbourhoods for the point, computing occupancy grids for them and applying 3D convolutional neural network on those grids.
-A more detailed description can be found at https://goo.gl/TUPqXo.
+A more detailed description can be found in [this presentation](https://drive.google.com/file/d/1tAV7g90sOiiF8OpxVuMt8ofLl1wPzK2w/view?usp=sharing).
 
 # Instructions for Linux (tested for Ubuntu 16.04.2 LTS):
 1. install torch (tested for commit 5c1d3cfda8101123628a45e70435d545ae1bc771 from June 7, 2017), cuda (tested for v8.0) and cudnn (tested for v5.1). For the latter, follow the instructions https://github.com/soumith/cudnn.torch
